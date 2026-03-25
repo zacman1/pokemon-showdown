@@ -388,7 +388,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] Pocketmon Natdex Master Draft",
 		desc: `Pocketmon Annual Draft League.`,
-		mod: 'gen9legendsou',
+		mod: 'pocketmondraft',
 		gameType: 'doubles',
 		bestOfDefault: true,
 		teraPreviewDefault: true,
