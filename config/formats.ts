@@ -380,6 +380,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Zekrom',
 		],
 	},
+		//Pocketmon
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Pocketmon",
+	},
+	{
+		name: "[Gen 9] Pocketmon Natdex Master Draft",
+		desc: `Pocketmon Annual Draft League.`,
+		mod: 'gen9legendsou',
+		gameType: 'doubles',
+		bestOfDefault: true,
+		teraPreviewDefault: true,
+		ruleset: ['Standard Draft', 'Item Clause = 1', 'VGC Timer', '!Sleep Clause Mod', '!OHKO Clause', '!Evasion Clause', 'Adjust Level = 50', 'Picked Team Size = 4', 'Min Source Gen = 9'],
+		banlist: ['Geomancy','Moody'],
+	},
 
 	// Draft League
 	///////////////////////////////////////////////////////////////////
