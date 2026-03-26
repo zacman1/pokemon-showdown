@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	
 	{
-	name: "[Gen 9] Pocketmon NatDex Legends Z-A OU Draft",
+	name: "[Gen 9] Pocketmon NatDex Draft",
 	desc: `Pocketmon Annual Draft League.`,
 	mod: 'pocketmondraft',
 	bestOfDefault: true,
