@@ -26,12 +26,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	
 	{
-	name: "[Gen 9] Pocketmon NatDex Draft",
+	name: "[Gen 9] Pocketmon NatDex Legends Z-A Draft",
 	desc: `Pocketmon Annual Draft League.`,
 	mod: 'pocketmondraft',
 	bestOfDefault: true,
 	gameType: 'doubles',
-	ruleset: ['Standard Doubles', 'NatDex Mod', 'Evasion Abilities Clause','+Future'],
+	ruleset: ['Standard Doubles','NatDex Mod','+Future','!Obtainable','Obtainable Moves','Obtainable Abilities'],
 	banlist: ['Geomancy','Moody'],
 	unbanlist: ['Hidden Power'],
 },
