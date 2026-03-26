@@ -20,6 +20,10 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 60, atk: 100, def: 105, spa: 130, spd: 105, spe: 120 },
 		abilities: { 0: "Pure Power" },
 	},
+	dragonitemega: {
+		inherit: true,
+		abilities: { 0: "Multiscale" },
+	},
 	absolmegaz: {
 		inherit: true,
 		abilities: { 0: "Technician" },
@@ -32,9 +36,25 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: { 0: "Tough Claws" },
 	},
+	mawilemega: {
+		inherit: true,
+		baseStats: { hp: 50, atk: 105, def: 125, spa: 55, spd: 95, spe: 50 },
+	},
+	medichammega: {
+		inherit: true,
+		baseStats: { hp: 60, atk: 100, def: 85, spa: 80, spd: 85, spe: 100 },
+	},
 	staraptormega: {
 		inherit: true,
 		abilities: { 0: "Tough Claws" },
+	},
+	gallademega: {
+		inherit: true,
+		abilities: { 0: "Sharpness" },
+	},
+	froslassmega: {
+		inherit: true,
+		abilities: { 0: "Snow Warning" },
 	},
 	garchompmegaz: {
 		inherit: true,

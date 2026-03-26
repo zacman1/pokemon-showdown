@@ -19,6 +19,22 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+		//Pocketmon
+	///////////////////////////////////////////////////////////////////
+	{
+		section: "Pocketmon",
+	},
+	
+	{
+	name: "[Gen 9] Pocketmon NatDex Legends Z-A OU Draft",
+	desc: `Pocketmon Annual Draft League.`,
+	mod: 'pocketmondraft',
+	bestOfDefault: true,
+	gameType: 'doubles',
+	ruleset: ['Standard Doubles', 'NatDex Mod', 'Evasion Abilities Clause','+Future'],
+	banlist: ['Geomancy','Moody'],
+	unbanlist: ['Hidden Power'],
+},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -380,22 +396,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Zekrom',
 		],
 	},
-		//Pocketmon
-	///////////////////////////////////////////////////////////////////
-	{
-		section: "Pocketmon",
-	},
-	{
-		name: "[Gen 9] Pocketmon NatDex Master Draft",
-		desc: `Pocketmon Annual Draft League.`,
-		mod: 'gen9legendsou',
-		gameType: 'doubles',
-		bestOfDefault: true,
-		teraPreviewDefault: true,
-		ruleset: ['[Gen 9] 6v6 Doubles Draft','+Past','+Future','Item Clause = 1', 'VGC Timer','Adjust Level = 50', 'Picked Team Size = 4', '!!Min Source Gen = 1'],
-		banlist: ['Geomancy','Moody'],
-	},
-
 	// Draft League
 	///////////////////////////////////////////////////////////////////
 
